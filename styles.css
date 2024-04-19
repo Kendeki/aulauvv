@@ -1,3 +1,5 @@
+/* ESTILIZAÇÕES GLOBAIS */
+
 @import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap');
 
 body{
@@ -6,40 +8,45 @@ body{
     font-family: 'Exo';
 }
 
-p{
+p,ul{
     color:rgb(138, 138, 138);
 }
+
+h1{
+    font-size: 50px;
+}
+
+/* INICIO DO SITE (MENU E APRESENTAÇÃO) */
 
 header{
     position: fixed;
     background-color: #3a3a3a;
     width: 100%;
-    top: 2px;
-    left:-2px;
-    border-style: solid;
-    border-color: #1d1d1d;
+    height: 100px;
+    top: 0px;
+    left:0px;
+    padding: 0px;
+    margin: 0px;
     z-index: 2;
 }
 
-header ul{
-    padding: 0px;
-    margin: 0px;
+#logo img{
+    width: 100px;
+    height: 100px;
 }
 
-#logo{
-    width: 90px;
-    height: 90px;
-}
-
-.link img{
-    width: 30px;
-    height: 20px;
+.contatos img{
+    width: 50px;
+    height: 50px;
+    float: right;
+    padding-right: 8px;
+    margin-top: 50px;
 }
 
 section#apre{
     width: 100%;
-    height: 220px;
-    margin: 300px 0 200px 0;
+    height: 170px;
+    margin: 300px 0 250px 0;
     position: relative;
     z-index: 1;
 }
@@ -62,7 +69,7 @@ section#apre p{
 }
 
 section#apre p:first-of-type{
-    top: 20%;
+    top: 16%;
     left: 47.5%;
 }
 section#apre p:last-of-type{
@@ -81,3 +88,5 @@ section#sobremim div{
     width: 350px;
     padding-left: 5px;
 }
+
+/* SOBRE MIM */
