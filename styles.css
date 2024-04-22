@@ -10,10 +10,15 @@ body{
 
 p,ul{
     color:rgb(138, 138, 138);
+    font-size: 16px;
 }
 
 h1{
     font-size: 50px;
+}
+
+h2{
+    font-size: 26px;
 }
 
 /* INICIO DO SITE (MENU E APRESENTAÇÃO) */
@@ -46,7 +51,7 @@ header{
 section#apre{
     width: 100%;
     height: 170px;
-    margin: 300px 0 250px 0;
+    margin: 300px 0 530px 0;
     position: relative;
     z-index: 1;
 }
@@ -54,7 +59,7 @@ section#apre img{
     width: 200px;
     height: 200px;
     position: absolute;
-    top: 50%;
+    top: 90%;
     left: 45%;
     margin: -100px 0 0 -300px;
     border-style: solid;
@@ -69,12 +74,18 @@ section#apre p{
 }
 
 section#apre p:first-of-type{
-    top: 16%;
+    top: 50%;
     left: 47.5%;
 }
 section#apre p:last-of-type{
-    top: 40%;
+    top: 80%;
     left: 45%;
+}
+
+/* SOBRE MIM */
+
+section#sobremim{
+    position: relative;
 }
 
 section#sobremim h1{
@@ -82,11 +93,35 @@ section#sobremim h1{
     margin: 0 0 150px 0;
 }
 
+section#sobremim h2{
+    padding-left: 10px;
+}
+
 section#sobremim div{
     border-style: solid;
     border-radius: 10px;
+    padding: 12px;
     width: 350px;
-    padding-left: 5px;
+    height: 390px;
+    position: absolute;
 }
 
-/* SOBRE MIM */
+section#sobremim div:nth-of-type(1){
+    left: 20%;
+}
+section#sobremim div:nth-of-type(2){
+    left: 60%;
+}
+section#sobremim div:nth-of-type(3){
+    left: 20%;
+    top: 1000%;
+}
+section#sobremim div:nth-of-type(4){
+    left: 60%;
+    top: 1000%;
+}
+
+
+section#tecno, footer{
+    display: none;
+}
