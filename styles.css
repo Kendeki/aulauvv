@@ -51,7 +51,7 @@ header{
 section#apre{
     width: 100%;
     height: 170px;
-    margin: 300px 0 530px 0;
+    margin: 300px 0 400px 0;
     position: relative;
     z-index: 1;
 }
@@ -59,7 +59,7 @@ section#apre img{
     width: 200px;
     height: 200px;
     position: absolute;
-    top: 90%;
+    top: 10%;
     left: 45%;
     margin: -100px 0 0 -300px;
     border-style: solid;
@@ -74,11 +74,11 @@ section#apre p{
 }
 
 section#apre p:first-of-type{
-    top: 50%;
+    top: -30%;
     left: 47.5%;
 }
 section#apre p:last-of-type{
-    top: 80%;
+    top: 0%;
     left: 45%;
 }
 
@@ -86,6 +86,7 @@ section#apre p:last-of-type{
 
 section#sobremim{
     position: relative;
+    margin: 0 0 1100px 0;
 }
 
 section#sobremim h1{
@@ -107,21 +108,73 @@ section#sobremim div{
 }
 
 section#sobremim div:nth-of-type(1){
-    left: 20%;
+    left: 15%;
 }
 section#sobremim div:nth-of-type(2){
-    left: 60%;
+    left: 55%;
 }
 section#sobremim div:nth-of-type(3){
-    left: 20%;
+    left: 15%;
     top: 1000%;
 }
 section#sobremim div:nth-of-type(4){
-    left: 60%;
+    left: 55%;
     top: 1000%;
 }
 
+section#sobremim div:nth-of-type(1) p{
+    font-size: 24px;
+}
+section#sobremim div:nth-of-type(2) p{
+    padding: 0px;
+    margin: 13px;
+    font-size: 22px;
+}
+section#sobremim div:nth-of-type(3) p{
+    font-size: 19px;
+}
+section#sobremim div:nth-of-type(4) p{
+    font-size: 17px;
+}
 
-section#tecno, footer{
-    display: none;
+/* TECNOLOGIAS */
+
+section#tecno{
+    position: relative;
+    left: 200px;
+}
+
+section#tecno h1, section#tecno p{
+    border-style: solid;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+section#tecno h1{
+    height: 300px;
+    width: 350px;
+}
+
+section#tecno p{
+    height: 50px;
+    width: 200px;
+}
+
+section#tecno p:nth-of-type(1), section#tecno p:nth-of-type(2), section#tecno p:nth-of-type(3){
+    left: 450px;
+}
+section#tecno p:nth-of-type(4), section#tecno p:nth-of-type(5), section#tecno p:nth-of-type(6){
+    left: 720px;
+}
+section#tecno p:nth-of-type(1), section#tecno p:nth-of-type(4){
+    top: 25px;
+}
+section#tecno p:nth-of-type(2), section#tecno p:nth-of-type(5){
+    top: 150px;
+}
+section#tecno p:nth-of-type(3), section#tecno p:nth-of-type(6){
+    top: 275px;
 }
